@@ -1,0 +1,12 @@
+<h1>Hi <%= @user.first_name %>, Your Booking has been Confirmed!</h1>
+=============================================== <br/>
+
+Booking Details: <br/>
+-------------------------- <br/>
+
+Booking ID: <%= @booking.id %><br/>
+Event Name: <%= @booking.ticket.event.name %><br/>
+Event Address: <%= @booking.ticket.event.name %><br/>
+No of Tickets booked: <%= @booking.ticket_count %><br/>
+Ticket Type: <%= @booking.ticket.ticket_type %><br/>
+Total Amount: <%= @booking.final_amount %>
