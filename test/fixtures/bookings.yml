@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  final_amount: 1.5
+  ticket_count: 1
+  customer: one
+  ticket: one
+
+two:
+  final_amount: 1.5
+  ticket_count: 1
+  customer: two
+  ticket: two
